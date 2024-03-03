@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppin", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assests/images/bg.png");
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+}
+
+nav {
+    max-width: 80vw;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    z-index: 10;
+    position: relative;
+    width: 112px;
+    color: red;
+}
+
+nav button {
+    z-index: 10;
+    position: relative;
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    font-family: "poppins", "sans-serif";
+    gap: 23px;
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero>:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.line {
+    height: 8px;
+    background-color: rgba(46, 44, 44);
+    margin-bottom: 23px;
+}
+
+.btn-one {
+    color: white;
+    border: 2px solid grey;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    font-weight: 400;
+    width: 100px;
+}
+
+.btn-two {
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.btn-third {
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'poppin', sans-serif;
+    font-weight: bolder;
+    width: 200px;
+    border: none;
+}
+
+.main input {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 'poppin', sans-serif;
+    font-weight: bolder;
+    width: 350px;
+    border: 2px solid rgb(82, 75, 75);
+    height: 30px;
+}
+
+.hero-buttons {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-image {
+    position: relative;
+
+}
+
+.first-image video {
+    position: absolute;
+    right: 0;
+    top: 51px;
+}
+
+.first-image img {
+    width: 34vw;
+    position: relative;
+    z-index: 10;
+}
+
+.sp1 {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.sp2 {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.sp3 {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.frequently h1 {
+    color: white;
+    background-color: black;
+    font-size: 42px
+}
+
+.frequently {
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: rgb(37, 35, 35);
+    transition: all 1s ease-out;
+}
+
+.faqbox {
+    background-color: rgba(128, 128, 128, 0.461);
+    display: flex;
+    padding: 24px;
+    max-width: 60vw;
+    margin-left: 240px;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 200px;
+}
+
+.links a {
+    color: rgba(255, 255, 255, 0.7);
+    list-style: none;
+}
+
+.btn {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: black;
+    border-radius: 3px;
+    padding: 6px 36px;
+    border: 2px solid gray;
+    border-radius: 0.125rem;
+}
